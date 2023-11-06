@@ -55,22 +55,7 @@ header{
     color:#fff;
     text-shadow: 2px 2px 4px rgba(0,0,0,2);
 }
-.sec {
-    position: relative;
-    background: #003329;
-    padding: 100px;
-    min-height: 100vh;
-}
-.sec h2{
-    font-size: 3em;
-    color:#fff;
-    margin-bottom: 10px;
-}
-.sec P{
-    font-size: 1em;
-    color: #fff;
-    font-weight: 300;
-}
+
 .parallax img{
     position: absolute;
     top: 0;
@@ -97,3 +82,15 @@ header{
   .dear{
     top: 800px;
   }
+
+  /******ABOUT******/
+
+  .About {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    min-height: 100vh;
+}
+.ele{
+    top: 760px;
+}
