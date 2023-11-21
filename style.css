@@ -78,23 +78,13 @@ header{
     top: 100px;
   }
   .lion{
-    top: 800px;
+    top: 780px;
   }
   .dear{
-    top: 800px;
+    top: 760px;
   }
 
-  /******ABOUT******/
 
-  .About {
-    position: relative;
-    background: #003329;
-    padding: 100px;
-    min-height: 100vh;
-}
-.ele{
-    top: 760px;
-}
 .navigation2 a{
   text-decoration: none;
   color:#359381;
@@ -129,3 +119,108 @@ a::before{
 a:hover:before{
   width: 100%;
 }
+
+ /******ABOUT******/
+
+.About {
+  position:relative;
+  background:#f9f9f9;
+  padding: 100px;
+  height: 100vh;
+}
+
+
+.heading{
+  width:90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  flex-direction: column;
+   text-align: center;
+   margin:20px auto;
+  }
+  .heading h1{
+  font-size: 50px;
+   color:#000;
+   margin-bottom: 25px;
+   position: relative;
+   }
+   .heading h1::after{
+   content:"";
+   position: absolute;
+   width:100%;
+    height: 4px;
+    display: block;
+   margin:0 auto;
+    background-color: #4caf50;
+   }
+   .heading p{
+   font-size: 18px;
+   color:#666;
+   margin-bottom: 35px;
+  }
+  .container{
+   width:90%;
+   margin:0 auto;
+   padding:10px 20px;
+  }
+  .about{
+      display: flex;
+     justify-content: space-between;
+      align-items: center;
+     flex-wrap: wrap;
+  }
+  .about-image{
+     flex:1;
+      margin-right: 40px;
+      margin-left: 140px;
+      overflow: hidden;
+  }
+  .about-image img{
+      max-width: 90%;
+      height: auto;
+      display: block;
+      transition: 0.5s ease;
+  }
+  .about-image:hover img{
+      transform: scale(1.2);
+  }
+.about-content{
+ 
+}
+  .plant4{
+    position: absolute;
+  
+    top:435px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+      
+    }
+    .plant3{
+      position: absolute;
+      top:475px;
+      left: 0;
+      width: 100%;
+      pointer-events: none;
+        
+      }
+  .ele1{
+    top: 760px;
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+  }
+  .plant2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+  .ele2{
+    top: 760px;
+  }
+ 
+  
+    
